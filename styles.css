@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #65c3eb;
+    --secondary-color: #2984c1;
+    --bg-color: #0d1512;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.profilepic {
+    float: left;
+    border-radius: 100%;
+    max-width: 65px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-decoration: none;
+}
+
+.banner {
+    max-width: 556px;
+    min-width: 400px;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 0 0 18px #fff;
+}
+
