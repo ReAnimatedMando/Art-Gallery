@@ -20,33 +20,30 @@ body {
     padding: 14px;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 14px;
-}
-
-.profilepic {
+nav .item1 {
     float: left;
-    border-radius: 100%;
-    max-width: 65px;
-    padding: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 18px;
 }
 
-.nav {
+nav .item2 {
+    float: right;
     display: flex;
-    align-items: center;
-    gap: 32px;
-    text-decoration: none;
+    justify-content: flex-end;
+    margin-bottom: 18px;
 }
 
 .banner {
-    max-width: 556px;
-    min-width: 400px;
-    width: 85%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     box-shadow: 0 0 18px #fff;
+    margin: 8px 0px 0px 0px;
 }
 
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
