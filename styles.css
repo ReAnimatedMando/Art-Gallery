@@ -25,6 +25,8 @@ nav .item1 {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 18px;
+    color: #fff;
+    text-decoration: none;
 }
 
 nav .item2 {
@@ -32,6 +34,8 @@ nav .item2 {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 18px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .banner {
