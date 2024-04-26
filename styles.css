@@ -5,9 +5,10 @@
 }
 
 * {
-    margin: 0;
+    margin: 3px;
     padding: 0;
     box-sizing: border-box;
+    transition-duration: 200ms;
 }
 
 body {
@@ -16,14 +17,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 72px;
-    padding: 14px;
-}
-
-header, main, footer {
-    max-width: 684px;
-    margin: 0 auto;
-    width: 100%;
 }
 
 nav .item1 {
@@ -44,12 +37,14 @@ nav .item2 {
     text-decoration: none;
 }
 
-.banner {
+.banner { 
     display: flex;
     justify-content: center;
-    width: 100%;
-    box-shadow: 0 0 18px #fff;
-    margin: 8px 0px 0px 0px;
+    width: 82%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 18px 4px #fff;
 }
 
 p {
