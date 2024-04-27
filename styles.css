@@ -63,22 +63,21 @@ main {
     margin-top: 64px;
 }
 
-h2 {
-    text-decoration: underline;
-}
-
-.MoviesShorts {
-    display: inline-table;
-}
-
-article {
+.projectcontainer {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 276px;
-    padding: 4px;
-    border: 2px solid #fff;
+    align-items: stretch;
+    gap: 24px;
+    margin: 16px;
+}
 
+.linkitem {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkitem:hover {
+    opacity: 0.6;
 }
 
 
