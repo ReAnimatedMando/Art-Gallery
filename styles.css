@@ -5,19 +5,16 @@
 }
 
 * {
-    margin: 3px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
     max-width: 900px;
-    box-sizing: border-box;
-    transition-duration: 200ms;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
-    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +26,7 @@ nav .item1 {
     margin-bottom: 18px;
     color: #f36161;
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav .item2 {
@@ -38,6 +36,7 @@ nav .item2 {
     margin-bottom: 18px;
     color: #f36161;
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav:hover {
@@ -61,6 +60,11 @@ nav:hover {
 
 main {
     margin-top: 64px;
+}
+
+h2 {
+    margin: 12px;
+    text-decoration: underline;
 }
 
 .projectcontainer {
