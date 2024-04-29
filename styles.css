@@ -1,86 +1,36 @@
-:root {
-    --primary-color: #ed3d34;
-    --secondary-color: #d54b33;
-    --bg-color: #0d1512;
-}
-
 body {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
+    background-color: black;
+    color: red;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    flex-direction: column;
 }
 
-header, main {
-    max-width: 900px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-nav .item1 {
+.Linktree {
     float: left;
     display: flex;
     justify-content: flex-start;
     margin: 0px 0px 18px 12px;
-    color: #f36161;
+    color: red;
     text-decoration: none;
     cursor: pointer;
 }
 
-nav .item2 {
+.Linktree:hover {
+    opacity: 0.6;
+}
+
+.Email {
     float: right;
     display: flex;
     justify-content: flex-end;
     margin: 0px 12px 18px 0px;
-    color: #f36161;
+    color: red;
     text-decoration: none;
     cursor: pointer;
 }
 
-nav:hover {
-    opacity: 0.7;
-}
-
-.banner { 
-    display: flex;
-    justify-content: center;
-    width: 82%;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bannercap {
-    display: flex;
-    justify-content: center;
-    margin-top: 4px;
-}
-
-main {
-    margin-top: 76px;
-}
-
-
-
-section, .projectcontainer {
-    margin: 12px;
-    gap: 12px;
-}
-
-h2 {
-    margin: 12px;
-    text-decoration: underline;
-}
-
-.linkitem {
-    color: aliceblue;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.linkitem:hover {
+.Email:hover {
     opacity: 0.6;
 }
 
