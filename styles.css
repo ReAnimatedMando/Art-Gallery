@@ -45,11 +45,17 @@ nav {
     object-fit: cover; 
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
 .bannercap {
     display: flex;
     justify-content: center;
     width: 100%;
     font-size: 1.2rem;
+    margin-top: -24px;
 }
 
 
