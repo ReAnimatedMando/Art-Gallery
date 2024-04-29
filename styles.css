@@ -3,6 +3,7 @@ body {
     color: red;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
     min-height: 100vh;
     max-width: 800px;
     gap: 72px;
@@ -10,31 +11,13 @@ body {
     width: 100%;
 }
 
-.banner {
-    display: flex;
-    justify-content: center;
-    margin-top: 12px;  
-    width: 100%;
-    object-fit: cover; 
-    overflow: unset;
-}
-
-.bannercap {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 12px;
+    width: 100%;
 }
 
 .Linktree {
-    display: inline;
+    float: left;
     color: rgb(255, 255, 255);
-    padding: 6px 52px 0px 0px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -44,9 +27,8 @@ nav {
 }
 
 .Email {
-    display: inline;
+    float: right;
     color: rgb(255, 255, 255);
-    padding: 6px 0px 0px 52px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -55,7 +37,20 @@ nav {
     opacity: 0.6;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;  
+    width: 100%;
+    object-fit: cover; 
+}
 
+.bannercap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
 
 
 
