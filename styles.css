@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: red;
+    background-color: rgb(48, 45, 45);
+    color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
     gap: 72px;
     padding: 14px;
     width: 100%;
+    font-weight: 800;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
     object-fit: cover; 
 }
 
-h3 {
+h2 {
     display: flex;
     justify-content: center;
 }
