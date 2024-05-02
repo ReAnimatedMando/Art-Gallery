@@ -68,7 +68,7 @@ hr {
 
 .headertext {
     font-size: 1.2em;
-    color: #ffffff;
+    color: #3d73d7;
     text-decoration: underline;
     margin-top: 102px;
 }
@@ -80,17 +80,20 @@ hr {
 
 .projectimg {
     padding: 12px;
+    border: 2px solid #3d73d7;
 }
 
 .bio {
     padding: 86px 6px 0px 6px;
+    color: #3d73d7;
 }
 
 .linkcontainer {
     padding-top: 34px;
+    color: #3d73d7;
 }
 
 .projectlink {
-    color: #fff;
+    color: #3d73d7;
 }
 
