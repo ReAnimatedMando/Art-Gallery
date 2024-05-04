@@ -67,33 +67,36 @@ hr {
 }
 
 .headertext {
-    font-size: 1.2em;
-    color: #3d73d7;
-    text-decoration: underline;
-    margin-top: 102px;
-}
-
-.projectcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .projectimg {
-    padding: 12px;
-    border: 2px solid #3d73d7;
+    display: flex;
+    justify-content: center;
 }
 
 .bio {
-    padding: 76px 6px 6px 6px;
-    color: #3d73d7;
+    display: flex;
+    justify-content: center;
+    color: #fff;
 }
 
 .linkcontainer {
-    padding-top: 34px;
-    color: #3d73d7;
+    display: flex;
+    justify-content: center;
+    color: #fff;
 }
 
 .projectlink {
-    color: #3d73d7;
+    color: #fff;
+    cursor: pointer;
+}
+
+.projectlink:hover {
+    opacity: 0.6;
 }
 
