@@ -101,7 +101,11 @@ hr {
 }
 
 .info {
-    display: inline-table;
-    color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
+.info, li {
+    padding: 8px;
+    margin-right: 24px;
+}
