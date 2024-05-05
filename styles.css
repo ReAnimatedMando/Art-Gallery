@@ -100,3 +100,8 @@ hr {
     opacity: 0.6;
 }
 
+.info {
+    display: inline-table;
+    color: #fff;
+}
+
