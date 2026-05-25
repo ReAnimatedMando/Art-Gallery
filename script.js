@@ -1,0 +1,1 @@
+console.log("Aaron's Art Gallery loaded.");

@@ -2,168 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aaron's Art Gallery &#127912</title>
-    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <nav>
+    <header class="site-header">
+        <nav class="site-nav">
             <a href="https://aarontlinktree.netlify.app/" target="_blank"
-            class="Linktree">Linktree</a>
-            <a href="mailto:the_guma@yahoo.com" class="Email">Contact</a>
+            class="nav-link">Linktree</a>
+            
+            <a href="mailto:the_guma@yahoo.com" class="nav-link">Contact</a>
         </nav>
     </header>
-    <section>
-        <div class="banner">
-            <img src="Images/MUPortCollage-1.png" alt="ArtCollage" />
-        </div>
-    </section>   
-    <section>
-        <h2>&#127902Film/TV Professional&#127902</h2>
-        <div class="bannercap">           
-            <p>Decorating the world, myself
-                & others</p>
-        </div>
-    </section>
-    <hr/>
-    <section>
-        <div class="projectcontainer">
-            <p class="headertext">Movies</p>
-            <div class="projectimg">
-                <img src="Images/Movies-Collage.png" alt="Movies-Collage" />
+
+    <main>
+        <!-- HERO SECTION -->
+         <section class="hero-section">
+            <div class="hero-image">
+                <img src="Images/MUPortCollage-1.png" alt="Aaron's art portfolio collage" />
             </div>
-            <div class="bio">
-                <p>Art Director & Prop Master</p>
+
+            <div class="hero-content">
+                <p class="eyebrow">Film / TV Professional</p>
+                <h1>Aaron's Art Gallery</h1>
+                <p class="tagline">Decorating the world, myself &amp; others</p>
+
+                <div class="hero-actions">
+                    <a href="mailto:the_guma@yahoo.com" class="button button-primary">Contact Me</a>
+                    <a href="https://aarontlinktree.netlify.app/" target="_blank" class="button button-secondary">View My Linktree</a>
+                </div>
             </div>
-            <div class="linkcontainer">
-                <table>
-                    <thead class="linkHeader">Trailers</thead>
-                    <ul>
-                        <tr>
-                            <td><li><a 
-                            href="https://youtu.be/-uQMfHCamjM?si=tYOoh9iWf1wtCbMR"
-                            target="_blank" class="projectlink">Just Jake</a></li></td>
-                        </tr>
-                        <tr>
-                            <td><li><a href="https://youtu.be/gsO3TrnmGiY?si=q6m2ANGL7_XRKyVE"
-                            target="_blank" class="projectlink">The Engagement Plot</a></li></td>
-                        </tr>
-                        <tr>
-                            <td><li><a href="https://youtu.be/TVX1MvTFvXE?si=RNov49ofXTEwBrXO"
-                            target="_blank" class="projectlink">The Happy Camper</a></li></td>
-                        </tr>
-                        <tr>
-                            <td><li><a href="https://youtu.be/vFHqJ17qkO0?si=bv0wuTxSb1m3LsHi"
-                            target="_blank" class="projectlink">Red Winter</a></li></td>
-                        </tr>
+         </section>
+
+         <!-- FILTER BUTTONS - JavaScript will use these later -->
+         <section class="filter-section" aria-label="Portfolio filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="film">Film</button>
+            <button class="filter-button" data-filter="shorts">Shorts</button>
+            <button class="filter-button" data-filter="makeup">Makeup</button>
+            <button class="filter-button" data-filter="decoration">Decoration</button>
+            <button class="filter-button" data-filter="fabrication">Fabrication</button>
+         </section>
+
+         <!-- PORTFOLIO SECTION-->
+         <section class="portfolio-section">
+            <article class="portfolio-card" data-category="film">
+                <div class="card-image">
+                    <img src="Images/Movies-Collage.png" alt="Movie work collage" />
+                </div>
+
+                <div class="card-content">
+                    <p class="section-label">Movies</p>
+                    <h2>Art Director &amp; Prop Master</h2>
+                    <p class="card-description">
+                        Feature film art department work, including art direction, props, and visual storytelling.
+                    </p>
+                    <div class="link-list">
+                        <p class="link-list-title">Trailers</p>
+                        <a href="https://youtu.be/-uQMfHCamjM?si=tYOoh9iWf1wtCbMR" target="_blank">Just Jake</a>
+                        <a href="https://youtu.be/gsO3TrnmGiY?si=q6m2ANGL7_XRKyVE" target="_blank">The Engagement Plot</a>
+                        <a href="https://youtu.be/TVX1MvTFvXE?si=RNov49ofXTEwBrXO" target="_blank">The Happy Camper</a>
+                        <a href="https://youtu.be/vFHqJ17qkO0?si=bv0wuTxSb1m3LsHi" target="_blank">Red Winter</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio-card" data-category="shorts">
+                <div class="card-image>
+                    <img src="Images/ShortsCollage.png" alt="Short film collage" />
+                </div>
+
+                <div class="card-content">
+                    <p class="section-label">Short Films</p>
+                    <h2>Creator</h2>
+                    <p class="card-description">
+                        Original short-form projects with a hands-on approach to concept, style, and execution.
+                    </p>
+
+                    <div class="link-list">
+                        <p class="link-list-title">Watch</p>
+                        <a href="https://youtu.be/cghFY871qUg?si=jx6cBxG2M2qd8kcz" target="_blank">D.I.Y.</a>
+                        <a href="https://youtu.be/vgm8J39ITuc?si=WhOUC-DyVhMDNEHH" target="_blank">Invasion</a>
+                        <a href="https://youtu.be/slpxonJB-u4?si=kC5yrJGOrd9pcqUx" target="_blank">The Stray</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio-card" data-category="makeup">
+                <div class="card-image">
+                    <img src="Images/MakeUpCollage4sq.png" alt="Makeup and effects collage" />
+                </div>
+
+                <div class="card-content">
+                    <p class="section-label">Makeup</p>
+                    <h2>Beauty, Character &amp; Effects</h2>
+                    <p class="card-description">
+                        Makeup work ranging from beauty looks to wounds, prosthetics, and character transformations for film and TV.
+                    </p>
+
+                    <ul class="detail-list">
+                        <li>Wolfcop</li>
+                        <li>Silent Victim</li>
+                        <li>Beauty MU</li>
+                        <li>Bullet Wound</li>
                     </ul>
-                </table>
-            </div>
-        </div>
-    </section>
-    <hr/>
-    <section>
-        <div class="projectcontainer">
-            <p class="headertext">Shorts</p>
-            <div class="projectimg">
-                <img src="Images/ShortsCollage.png" alt="Shorts-Collage" />
-            </div>
-            <div class="bio">
-                <p>Creator</p>
-            </div>
-            <div class="linkcontainer">
-                <table>
-                    <thead class="linkHeader">Watch</thead>
-                    <ul>
-                        <tr>
-                            <td><li><a href="https://youtu.be/cghFY871qUg?si=jx6cBxG2M2qd8kcz" target="_blank" class="projectlink">D.I.Y.</a></li></td>
-                        </tr>
-                        <tr>
-                            <td><li><a href="https://youtu.be/vgm8J39ITuc?si=WhOUC-DyVhMDNEHH" target="_blank" class="projectlink">Invasion</a></li></td>
-                        </tr>
-                        <tr>
-                            <td><li><a href="https://youtu.be/slpxonJB-u4?si=kC5yrJGOrd9pcqUx" target="_blank" class="projectlink">The Stray</a></li></td>
-                        </tr>
+                </div>
+            </article>
+
+            <article class="portfolio-card" data-category="decoration">
+                <div class="card-image">
+                    <img src="Images/DecoCollage.png" alt="Set decoration collage" />
+                </div>
+
+                <div class="card-content">
+                    <p class="section-label">Decoration</p>
+                    <h2>Set Decoration &amp; Design</h2>
+                    <p class="card-description">
+                        Designed and dressed visual environments for film, commercial, and creative productions.
+                    </p>
+
+                    <ul class="detail-list">
+                        <li>CRWNZ Designer</li>
+                        <li>Pretenders Designer</li>
+                        <li>D.O.D. Bar</li>
+                        <li>Volcano Town</li>
                     </ul>
-                </table>
-            </div>
+                </div>
+            </article>
+
+            <article class="portfolio-card" data-category="fabrication">
+                <div class="card-image">
+                    <img src="Images/fabCollage.png" alt="Fabrication collage" />
+                </div>
+
+                <div class="card-content">
+                    <p class="section-label">Fabrication</p>
+                    <h2>Custom Builds &amp; Practical Art</h2>
+                    <p class="card-description">
+                        Hands-on creation of custom props, set pieces, and practical effects for various productions & displays.
+                    </p>
+
+                    <ul class="detail-list">
+                        <li>Retro T.V.</li>
+                        <li>Dark Helmet</li>
+                        <li>Custom Stage</li>
+                        <li>Sculpting</li>
+                    </ul>
+                </div>
+            </article>
+         </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Aaron's Art Gallery</p>
+        <p>Film / TV / Art Department / Fabrication</p>
+
+        <div class="footer-link">
+            <a href="mailto:the_guma@yahoo.com">Contact</a>
+            <a href="https://aaronlinktree.netlify.app/" target="_blank">Linktree</a>
         </div>
-    </section>
-    <hr/>
-    <section>
-        <div class="projectcontainer">
-            <p class="headertext">Makeup</p>
-            <div class="projectimg">
-                <img src="Images/MakeUpCollage4sq.png" alt="Makeup-Collage" />
-            </div>
-            <div class="info">
-                <table>
-                    <tr>
-                        <ul>
-                            <td><li>Wolfcop</li></td>
-                            <td><li>Silent Victim</li></td>
-                        </ul>
-                    </tr>
-                    <tr>
-                        <ul>
-                            <td><li>Beauty MU</li></td>
-                            <td><li>Bullet Wound</li></td>
-                        </ul>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-    <hr/>
-    <section>
-        <div class="projectcontainer">
-            <p class="headertext">Decoration</p>
-            <div class="projectimg">
-                <img src="Images/DecoCollage.png" alt="Deco-Collage" />
-            </div>
-            <div class="info">
-                <table>
-                    <tr>
-                        <ul>
-                            <td><li>CRWNZ Designer</li></td>
-                            <td><li>Pretenders Designer</li></td>
-                        </ul>
-                    </tr>
-                    <tr>
-                        <ul>
-                            <td><li>D.O.D. Bar</li></td>
-                            <td><li>Volcano Town</li></td>
-                        </ul>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-    <hr/>
-    <section>
-        <div class="projectcontainer">
-            <p class="headertext">Fabrication</p>
-            <div class="projectimg">
-                <img src="Images/fabCollage.png" alt="Fab-Collage" />
-            </div>
-            <div class="info">
-                <table>
-                    <tr>
-                        <ul>
-                            <td><li>Retro T.V.</li></td>
-                            <td><li>Dark Helmet</li></td>
-                        </ul>
-                    </tr>
-                    <tr>
-                        <ul>
-                            <td><li>Custom Stage</li></td>
-                            <td><li>Sculpting</li></td>
-                        </ul>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
+    </footer>
+
 </body>
 </html>
